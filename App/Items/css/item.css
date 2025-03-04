@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    height: 300px;
+}
+.item{
+    height: 300px;
+    width: 300px;
+}
+.item-box{
+    height:300px;
+    width: 300px;
+}
+.pic{
+    height: 300px;
+    width: 300px;
+}
+.card-group{
+   display: flex;
+   margin-left:8%;
+
+}
+.cart{
+    display: flex;
+    border-style: none;
+}
+form{
+    border-style: none;
+    overflow: hidden;
+    margin:5px;
+    height:300px;
+    width:300px;
+}
+form .bt{
+    /* border: 2px solid black; */
+    object-fit: cover;
+    height:300px;
+    width:300px;
+    background-color:transparent;
+    border-style: none;
+    color: rgb(255, 255, 255);
+}
+.card-group .card {
+    border: 2px solid #013f16; /* Blue border for each card */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    margin: 10px; /* Add margin between the cards */
+}
+
+form .bt:hover{
+    /* border: 2px solid black; */
+    overflow: hidden;
+    object-fit: cover;
+    height:320px;
+    width:320px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px;
+}
+form:hover{
+    border-style: none;
+    overflow: hidden;
+    margin: 10px;
+    border-width: 5px;
+    height:320px;
+    width:320px
+}
+/* .container-fluid{
+    margin-top:70px;
+} */

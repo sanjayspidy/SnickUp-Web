@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+    <style>
+        #top{
+            margin-top:15%;
+        }
+        .forgot{
+            margin-left: 30%;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/App/business/css/style.css">
+    <link rel="stylesheet" href="/App/business/css/meadia.css">
+
+    <title>business-acc</title>
+</head>
+
+<body>
+    <div class="col-12">
+        <div Class="glass" id="top">
+            <h4 class="text-dark text-center">VALIDATE YOURSELF</h4>
+            <!--<h6 class="text-primary text-center"> <span class="text-dark">SNEAKUP </span> BUSINESS ACCOUNT</h6>-->
+            <div class="form mt-4">
+                <form action="createBussiness" method="POST">
+                    <label class="one mb-2"> Enter Your Mail</label>
+                    <input class="mb-4" type="email" placeholder="Enter the Email" required>
+
+                    <label class="one mb-2"> Enter password </label>
+                    <input class="mb-4" type="password" placeholder="Enter the password" required>
+                    <br><br>
+                    <a href="/App/business/businessHome.html"><button class="btnn" type="button">LOGIN</button></a>
+                    <br><br>
+                    <a class="text-center forgot" href="/App/forgotpass/forgot.html">forgot password ?</a><br>
+        
+                    <!--<p class="three text-dark">Need help? Contact<a href="#"> business customer service.</a>Read our
+                        <a href="#">conditions of use</a>and<a href="#">privacy notice.</a> </p>
+                    <p class="four"> © 2025-2026, SeakUp.com, Inc. or its affiliates</p>-->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

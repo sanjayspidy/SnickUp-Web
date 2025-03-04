@@ -1,0 +1,117 @@
+.colorr{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 10px 0px rgb(74, 73, 73); */
+    height:90px;
+}
+.container-fluid{
+  padding-top: 5px;
+ 
+}
+.navbar-brand{
+        font-family: "Rubik Gemstones", serif;
+        font-weight: 500;
+        font-size: 30px;
+        font-style: italic;
+        color: rgb(5, 137, 40);
+        margin-left: 2%;
+      }
+      .navbar-brand:hover{
+        font-family: "Rubik Gemstones", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 2%;
+        color: rgb(7, 165, 4);
+      }
+      .collapse, .navbar-collapse{
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      .nav-item{
+        margin:0px 8px;
+        
+        
+      }
+      .nav-link:hover{
+        font-weight: 600;
+        font-style: italic;
+        color: rgb(0, 246, 29);
+        font-size: 15px;
+      }
+      .side{
+    margin-left:-5px;
+    box-shadow:5px;
+      }
+      select{
+    font-style: sans-serif;
+    font-weight: 600;
+    opacity: 0.7;
+    background-color: rgb(252, 253, 253);
+    border-style: none;
+    width:120px;
+      }
+      select:hover{
+        font-style: sans-serif;
+        font-weight: 600;
+        background-color: rgb(245, 245, 247);
+        border-style: none;
+        color: rgb(14, 126, 23);
+          }
+      option{
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        background-color: rgb(242, 246, 242);
+        border: none;
+      }
+      option:hover{
+        font-style: italic;
+        font-weight: 600;
+        font-size: 13px;
+        color: rgb(21, 110, 5);
+        background-color: rgb(248, 248, 251);
+        border: none;
+      }
+    .ii{
+        background: none;
+        margin-top:1%;
+        border: none;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        font-size:27px;
+    }
+    .ii:hover{
+        background: none;
+        margin-top:1%;
+        border: none;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        font-size:30px;
+        color: rgb(5, 99, 5);
+    }
+    .search{
+        margin-left:10%;
+        width:30%;
+    }
+.btn{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    border-style:solid;
+    border: solid 1px black;
+    color: rgb(4, 4, 4);
+    margin-left: 1%;
+}
+.btn:hover{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: rgb(7, 141, 33);
+    border: solid 1px rgb(19, 109, 3);
+    color: rgb(243, 241, 247);
+    height:40px;
+    width: 100px;
+    
+}
